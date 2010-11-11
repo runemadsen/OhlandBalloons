@@ -15,6 +15,7 @@
 		A52053881180C3B200AA9C7F /* BalloonControllerHead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A52053871180C3B200AA9C7F /* BalloonControllerHead.cpp */; };
 		A52053E81180CFC300AA9C7F /* BalloonController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A52053E71180CFC300AA9C7F /* BalloonController.cpp */; };
 		A52F79F6117CCC6D00F55415 /* Balloon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A52F79F5117CCC6D00F55415 /* Balloon.cpp */; };
+		A53D21D01260BA8D00867CD9 /* VimeoAwards.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A53D21CF1260BA8D00867CD9 /* VimeoAwards.cpp */; };
 		A55400FA1173AA5400665657 /* Animation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55400F91173AA5400665657 /* Animation.cpp */; };
 		A55B58321180B2C300BFCE44 /* AnimationSingingHeads.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55B58311180B2C300BFCE44 /* AnimationSingingHeads.cpp */; };
 		A55E264D11B48C7C000CBC96 /* AnimationHeadsSilence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A55E264C11B48C7C000CBC96 /* AnimationHeadsSilence.cpp */; };
@@ -168,6 +169,8 @@
 		A52053871180C3B200AA9C7F /* BalloonControllerHead.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BalloonControllerHead.cpp; sourceTree = "<group>"; };
 		A52053E71180CFC300AA9C7F /* BalloonController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BalloonController.cpp; sourceTree = "<group>"; };
 		A52F79F5117CCC6D00F55415 /* Balloon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Balloon.cpp; sourceTree = "<group>"; };
+		A53D21CE1260BA8D00867CD9 /* VimeoAwards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VimeoAwards.h; sourceTree = "<group>"; };
+		A53D21CF1260BA8D00867CD9 /* VimeoAwards.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VimeoAwards.cpp; sourceTree = "<group>"; };
 		A55400F81173AA5400665657 /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
 		A55400F91173AA5400665657 /* Animation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Animation.cpp; sourceTree = "<group>"; };
 		A55B58301180B2C300BFCE44 /* AnimationSingingHeads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationSingingHeads.h; sourceTree = "<group>"; };
@@ -806,6 +809,8 @@
 				A5FF4E3211EF75FF00463AEA /* Maskerade.cpp */,
 				A5A4D7F911FDD59D008197F5 /* ScreenSaver.h */,
 				A5A4D7FA11FDD59D008197F5 /* ScreenSaver.cpp */,
+				A53D21CE1260BA8D00867CD9 /* VimeoAwards.h */,
+				A53D21CF1260BA8D00867CD9 /* VimeoAwards.cpp */,
 			);
 			name = songs;
 			sourceTree = "<group>";
@@ -1277,6 +1282,7 @@
 				A50BA05B11FA0A9200AF5DCE /* ofxImage.cpp in Sources */,
 				A5A4D7FB11FDD59D008197F5 /* ScreenSaver.cpp in Sources */,
 				A5F9AACE1201A08700341107 /* AnimationSingingHeadsSingle.cpp in Sources */,
+				A53D21D01260BA8D00867CD9 /* VimeoAwards.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

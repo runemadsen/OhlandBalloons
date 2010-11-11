@@ -8,15 +8,21 @@ ScreenSaver::ScreenSaver()
 void ScreenSaver::createAnimations()
 {
 	vector <string> imgNames;
-	imgNames.push_back("letters/o.png");
-	imgNames.push_back("letters/h.png");
-	imgNames.push_back("letters/l.png");
-	imgNames.push_back("letters/a.png");
-	imgNames.push_back("letters/n.png");
-	imgNames.push_back("letters/d.png");
-	imgNames.push_back("letters/empty.png");
-	imgNames.push_back("letters/empty.png");
-
+	imgNames.push_back("vimeoletters/v.png");
+	imgNames.push_back("vimeoletters/i.png");
+	imgNames.push_back("vimeoletters/m.png");
+	imgNames.push_back("vimeoletters/e.png");
+	imgNames.push_back("vimeoletters/o.png");
+	imgNames.push_back("vimeoletters/a.png");
+	imgNames.push_back("vimeoletters/w.png");
+	imgNames.push_back("vimeoletters/a.png");
+	imgNames.push_back("vimeoletters/r.png");
+	imgNames.push_back("vimeoletters/d.png");
+	imgNames.push_back("vimeoletters/s.png");
+	imgNames.push_back("vimeoletters/2.png");
+	imgNames.push_back("vimeoletters/0.png");
+	imgNames.push_back("vimeoletters/1.png");
+	imgNames.push_back("vimeoletters/0.png");
 	
 	AnimationSweep * animation1 = new AnimationSweep(imgNames);
 	

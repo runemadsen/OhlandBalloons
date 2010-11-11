@@ -18,9 +18,12 @@ void testApp::setup()
 	sensing = new Sensing();
 	maskController = new MaskController();
 
+	//songs.push_back(new VimeoAwards());
+	//songs[0]->setBank(1);
+	
 	songs.push_back(new SonOfAGun());
 	songs[0]->setBank(1);
-	//songs[0]->createAnimations();
+	songs[0]->createAnimations();
 	
 	songs.push_back(new WhiteNights());
 	songs[1]->setBank(2);
@@ -137,7 +140,7 @@ void testApp::newMidiMessage(ofxMidiEventArgs& eventArgs)
 	if(DEBUG)
 	{
 		cout << "-----------------------------------------" << "\n";
-		cout << "New Midi Note" << "\n";
+		cout << "New Midi Message" << "\n";
 		cout << "Status: " << eventArgs.status << "\n";
 		cout << "Byte One: " << eventArgs.byteOne << "\n";
 		cout << "Byte Two: " << eventArgs.byteTwo << "\n";
@@ -147,10 +150,18 @@ void testApp::newMidiMessage(ofxMidiEventArgs& eventArgs)
 	{	
 		changeSong(eventArgs.byteTwo);
 	}
-	else
+	else if(eventArgs.status == MIDI_PROGRAM_CHANGE || eventArgs.status == MIDI_NOTE_ON || eventArgs.status == MIDI_NOTE_OFF)
 	{
 		songs[currentSong]->newMidiMessage(eventArgs);
 	}
+	else 
+	{
+		if(DEBUG)
+		{
+			cout << "This message was not used \n";
+		}
+	}
+
 }
 
 /* Events

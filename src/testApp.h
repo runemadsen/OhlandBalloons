@@ -7,6 +7,7 @@
 #include "ofxMidi.h"
 
 #include "Song.h"
+#include "VimeoAwards.h"
 #include "SonOfAGun.h"
 #include "WhiteNights.h"
 #include "Perfection.h"

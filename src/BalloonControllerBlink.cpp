@@ -43,7 +43,10 @@ void BalloonControllerBlink::draw()
 
 void BalloonControllerBlink::destroy()
 {	
-	//_img.clear(); // This kills the program. Weird...
+	if(_img.getTextureReference().bAllocated())
+	{
+		_img.clear();
+	}
 }
 
 /* Midi note on / off

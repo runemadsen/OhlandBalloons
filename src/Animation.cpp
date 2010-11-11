@@ -87,7 +87,7 @@ void Animation::newMidiMessage(ofxMidiEventArgs& eventArgs)
 				{
 					_controllers[i]->noteOn();
 				}
-				else if(eventArgs.status == MIDI_NOTE_OFF)
+				else if(eventArgs.status == MIDI_NOTE_OFF) 
 				{
 					_controllers[i]->noteOff();
 				}
