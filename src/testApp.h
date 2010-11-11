@@ -18,6 +18,8 @@
 #include "Maskerade.h"
 #include "MaskController.h"
 #include "ScreenSaver.h"
+#include "TurnItUp.h"
+#include "TurnItUpHans.h"
 
 class testApp : public ofSimpleApp, public ofxMidiListener
 {

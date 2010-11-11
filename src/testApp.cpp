@@ -46,8 +46,14 @@ void testApp::setup()
 	songs.push_back(new Maskerade());
 	songs[7]->setBank(8);
 	
+	songs.push_back(new TurnItUp());
+	songs[8]->setBank(9);
+	
+	songs.push_back(new TurnItUpHans());
+	songs[9]->setBank(10);
+	
 	songs.push_back(new ScreenSaver());
-	songs[8]->setBank(20);
+	songs[10]->setBank(20);
 	
 	midiIn.setVerbose(false);
 	midiIn.listPorts();
@@ -161,7 +167,6 @@ void testApp::newMidiMessage(ofxMidiEventArgs& eventArgs)
 			cout << "This message was not used \n";
 		}
 	}
-
 }
 
 /* Events
