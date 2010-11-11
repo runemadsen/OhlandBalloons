@@ -113,7 +113,10 @@ void AnimationFullImage::allOff()
 
 void AnimationFullImage::destroy()
 {	
-	_img.clear();
+	if(_img.getTextureReference().bAllocated())
+	{
+		_img.clear();
+	}
 }
 
 /* MIDI
@@ -130,10 +133,6 @@ void AnimationFullImage::newMidiMessage(ofxMidiEventArgs& eventArgs)
 		else if(eventArgs.status == MIDI_NOTE_OFF)
 		{
 			nodeOff();
-		}
-		else 
-		{
-			printf("ERROR: Midi message neither on or off");
 		}
 	}
 }

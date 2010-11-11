@@ -55,8 +55,6 @@ void BalloonControllerHeadSilence::draw()
 
 void BalloonControllerHeadSilence::reset()
 {
-	//head.stop();
-	//head.close();
 }
 
 /* Midi note on / off
@@ -77,6 +75,5 @@ void BalloonControllerHeadSilence::noteOff()
 
 void BalloonControllerHeadSilence::destroy()
 {	
-	//head.stop();
 	head.close();
 }

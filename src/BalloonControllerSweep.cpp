@@ -66,5 +66,8 @@ void BalloonControllerSweep::noteOff()
 
 void BalloonControllerSweep::destroy()
 {	
-	_img.clear();
+	if(_img.getTextureReference().bAllocated())
+	{
+		_img.clear();
+	}
 }

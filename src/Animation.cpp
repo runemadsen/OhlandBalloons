@@ -91,10 +91,6 @@ void Animation::newMidiMessage(ofxMidiEventArgs& eventArgs)
 				{
 					_controllers[i]->noteOff();
 				}
-				else 
-				{
-					printf("ERROR: Midi message neither on or off");
-				}
 
 				break;
 			}
