@@ -72,6 +72,9 @@
 		A5DA3F37118603610047FEED /* Quart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5DA3F29118603610047FEED /* Quart.cpp */; };
 		A5DA3F38118603610047FEED /* Quint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5DA3F2B118603610047FEED /* Quint.cpp */; };
 		A5DA3F39118603610047FEED /* Sine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5DA3F2D118603610047FEED /* Sine.cpp */; };
+		A5E1587412EDCAD600FDEFBC /* Rainbow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5E1587312EDCAD600FDEFBC /* Rainbow.cpp */; };
+		A5E1587712EDCB5600FDEFBC /* Human.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5E1587612EDCB5600FDEFBC /* Human.cpp */; };
+		A5E1587A12EDCCBA00FDEFBC /* Vodoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5E1587912EDCCBA00FDEFBC /* Vodoo.cpp */; };
 		A5F2C554128C5F8300515F91 /* TurnItUp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F2C553128C5F8300515F91 /* TurnItUp.cpp */; };
 		A5F2C55C128C621800515F91 /* TurnItUpHans.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F2C55B128C621800515F91 /* TurnItUpHans.cpp */; };
 		A5F306FC11B1AA56003DC6DC /* Song.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F306FB11B1AA56003DC6DC /* Song.cpp */; };
@@ -305,6 +308,12 @@
 		A5DA3F2C118603610047FEED /* Quint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quint.h; sourceTree = "<group>"; };
 		A5DA3F2D118603610047FEED /* Sine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sine.cpp; sourceTree = "<group>"; };
 		A5DA3F2E118603610047FEED /* Sine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sine.h; sourceTree = "<group>"; };
+		A5E1587212EDCAD600FDEFBC /* Rainbow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rainbow.h; sourceTree = "<group>"; };
+		A5E1587312EDCAD600FDEFBC /* Rainbow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rainbow.cpp; sourceTree = "<group>"; };
+		A5E1587512EDCB5600FDEFBC /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		A5E1587612EDCB5600FDEFBC /* Human.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Human.cpp; sourceTree = "<group>"; };
+		A5E1587812EDCCBA00FDEFBC /* Vodoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vodoo.h; sourceTree = "<group>"; };
+		A5E1587912EDCCBA00FDEFBC /* Vodoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vodoo.cpp; sourceTree = "<group>"; };
 		A5F2C552128C5F8300515F91 /* TurnItUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurnItUp.h; sourceTree = "<group>"; };
 		A5F2C553128C5F8300515F91 /* TurnItUp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TurnItUp.cpp; sourceTree = "<group>"; };
 		A5F2C55A128C621800515F91 /* TurnItUpHans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurnItUpHans.h; sourceTree = "<group>"; };
@@ -821,6 +830,12 @@
 				A5F2C553128C5F8300515F91 /* TurnItUp.cpp */,
 				A5F2C55A128C621800515F91 /* TurnItUpHans.h */,
 				A5F2C55B128C621800515F91 /* TurnItUpHans.cpp */,
+				A5E1587212EDCAD600FDEFBC /* Rainbow.h */,
+				A5E1587312EDCAD600FDEFBC /* Rainbow.cpp */,
+				A5E1587512EDCB5600FDEFBC /* Human.h */,
+				A5E1587612EDCB5600FDEFBC /* Human.cpp */,
+				A5E1587812EDCCBA00FDEFBC /* Vodoo.h */,
+				A5E1587912EDCCBA00FDEFBC /* Vodoo.cpp */,
 			);
 			name = songs;
 			sourceTree = "<group>";
@@ -1295,6 +1310,9 @@
 				A53D21D01260BA8D00867CD9 /* VimeoAwards.cpp in Sources */,
 				A5F2C554128C5F8300515F91 /* TurnItUp.cpp in Sources */,
 				A5F2C55C128C621800515F91 /* TurnItUpHans.cpp in Sources */,
+				A5E1587412EDCAD600FDEFBC /* Rainbow.cpp in Sources */,
+				A5E1587712EDCB5600FDEFBC /* Human.cpp in Sources */,
+				A5E1587A12EDCCBA00FDEFBC /* Vodoo.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

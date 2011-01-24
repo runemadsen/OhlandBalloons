@@ -4,6 +4,8 @@
 #include "AnimationImages.h"
 #include "AnimationFullVideo.h"
 #include "AnimationFullImage.h"
+#include "AnimationSweep.h"
+
 
 class WolfAndI : public Song
 {

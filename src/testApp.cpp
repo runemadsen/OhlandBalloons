@@ -52,8 +52,17 @@ void testApp::setup()
 	songs.push_back(new TurnItUpHans());
 	songs[9]->setBank(10);
 	
-	songs.push_back(new ScreenSaver());
-	songs[10]->setBank(20);
+	songs.push_back(new Rainbow());
+	songs[10]->setBank(11);
+	
+	songs.push_back(new Human());
+	songs[11]->setBank(12);
+	
+	songs.push_back(new Vodoo());
+	songs[12]->setBank(13);
+	
+	//songs.push_back(new ScreenSaver());
+	//songs[13]->setBank(20);
 	
 	midiIn.setVerbose(false);
 	midiIn.listPorts();

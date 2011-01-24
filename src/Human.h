@@ -15,12 +15,11 @@
 #include "AnimationFullImage.h"
 #include "AnimationSingingHeadsSingle.h"
 
-
-class SonOfAGun : public Song
+class Human : public Song
 {
 public:
     
-	SonOfAGun();
+	Human();
 	
 	void createAnimations();
 };

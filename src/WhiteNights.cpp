@@ -22,9 +22,10 @@ void WhiteNights::createAnimations()
 	
 	/*-------------------------------------------------------------
 		City sunset video
-	 --------------------------------------------------------------*/
+	 --------------------------------------------------------------
 	
 	_animations.push_back(new AnimationFullVideo("sunsetcity.mov"));
+	 */
 	
 	/*-------------------------------------------------------------
 		Colored balloons (triggered by drum pads)
@@ -94,9 +95,10 @@ void WhiteNights::createAnimations()
 	
 	/*-------------------------------------------------------------
 		Video of city by night
-	 --------------------------------------------------------------*/
+	 --------------------------------------------------------------
 	
 	_animations.push_back(new AnimationFullVideo("newyork.mov"));
+	 */
 	
 	_loaded = true;
 }

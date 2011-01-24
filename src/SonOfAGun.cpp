@@ -43,28 +43,6 @@ void SonOfAGun::createAnimations()
 		Singing heads (doh / ohh)
 	--------------------------------------------------------------*/
 	
-	/*midiNotes.clear();
-	
-	midiNotes.push_back(60);
-	midiNotes.push_back(61);
-	midiNotes.push_back(62);
-	midiNotes.push_back(63);
-	midiNotes.push_back(64);
-	midiNotes.push_back(65);
-	midiNotes.push_back(67);
-	midiNotes.push_back(69);
-	midiNotes.push_back(71);
-	midiNotes.push_back(72);
-	midiNotes.push_back(74);
-	
-	AnimationSingingHeads * animation2 = new AnimationSingingHeads(34, 37, "doh.mov");
-	animation2->setMidiNotes(midiNotes);
-	_animations.push_back(animation2);
-	
-	AnimationSingingHeads * animation3 = new AnimationSingingHeads(37, 39, "ohh.mov");
-	animation3->setMidiNotes(midiNotes);
-	_animations.push_back(animation3);*/
-	
 	AnimationSingingHeadsSingle * animation2 = new AnimationSingingHeadsSingle(34, 37, "doh.mov");
 	animation2->setUseOffset(true);
 	animation2->setMidiNote(60);
@@ -87,17 +65,20 @@ void SonOfAGun::createAnimations()
 	midiNotes.push_back(63);
 	midiNotes.push_back(64);
 	midiNotes.push_back(65);
+	midiNotes.push_back(66);
 	midiNotes.push_back(67);
+	midiNotes.push_back(68);
 	midiNotes.push_back(69);
+	midiNotes.push_back(70);
 	midiNotes.push_back(71);
 	midiNotes.push_back(72);
+	midiNotes.push_back(73);
 	midiNotes.push_back(74);
-	
-	midiNotes.push_back(12); //C1
-	midiNotes.push_back(14); //D1
-	midiNotes.push_back(16); //E1
-	midiNotes.push_back(17); //F1
-	midiNotes.push_back(18); //G1
+	midiNotes.push_back(75);
+	midiNotes.push_back(76);
+	midiNotes.push_back(77);
+	midiNotes.push_back(78);
+	midiNotes.push_back(79);
 	
 	//imgNames.clear();
 	vector <string> imgNames2;
@@ -108,19 +89,12 @@ void SonOfAGun::createAnimations()
 	_animations.push_back(animation4);
 	
 	/*-------------------------------------------------------------
-		Sunset video over beach
-	--------------------------------------------------------------*/
-	
-	_animations.push_back(new AnimationFullVideo("sunriseAUS.mov"));
-	
-	/*-------------------------------------------------------------
-		Extra stuff we don't use right now
+	 Falling stars
 	 --------------------------------------------------------------*/
 	
-	/*_animations.push_back(new AnimationFullVideo("OH_ballet.mov"));
-	_animations.push_back(new AnimationFullVideo("OH_moon.mov"));
-	_animations.push_back(new AnimationFullImage("tree.jpg"));
-	_animations.push_back(new AnimationFullVideo("OH_water.mov"));*/
+	AnimationStars * animation5 = new AnimationStars();
+	animation5->setMidiNotes(midiNotes);
+	_animations.push_back(animation5);
 	
 	_loaded = true;	
 }

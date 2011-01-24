@@ -20,6 +20,9 @@
 #include "ScreenSaver.h"
 #include "TurnItUp.h"
 #include "TurnItUpHans.h"
+#include "Rainbow.h"
+#include "Human.h"
+#include "Vodoo.h"
 
 class testApp : public ofSimpleApp, public ofxMidiListener
 {

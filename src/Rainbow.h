@@ -14,13 +14,13 @@
 #include "AnimationFullVideo.h"
 #include "AnimationFullImage.h"
 #include "AnimationSingingHeadsSingle.h"
+#include "AnimationSweep.h"
 
-
-class SonOfAGun : public Song
+class Rainbow : public Song
 {
 public:
     
-	SonOfAGun();
+	Rainbow();
 	
 	void createAnimations();
 };

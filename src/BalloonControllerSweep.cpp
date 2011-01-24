@@ -10,6 +10,10 @@ BalloonControllerSweep::BalloonControllerSweep(string imgName, Balloon * model) 
 	timer.setDuration(200);
 	timer.setTime(0);
 	
+	_color.r = 255;
+	_color.g = 255;
+	_color.b = 255;
+	
 	_img.loadImage(imgName);
 }
 
@@ -37,7 +41,7 @@ void BalloonControllerSweep::draw()
 	
 	ofEnableAlphaBlending();
 	
-	ofSetColor(255, 255, 255, alpha);
+	ofSetColor(_color.r, _color.g, _color.b, alpha);
 	
 	_img.draw(bounds.x, bounds.y, bounds.width, bounds.height);
 	
@@ -70,4 +74,12 @@ void BalloonControllerSweep::destroy()
 	{
 		_img.clear();
 	}
+}
+
+/* Getter / Setter
+ ___________________________________________________________ */
+
+void BalloonControllerSweep::setColor(ofColor color)
+{
+	_color = color;
 }

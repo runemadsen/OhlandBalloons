@@ -12,6 +12,8 @@ public:
     
 	AnimationSweep(vector <string> imgNames);
 	
+	void setColors(vector <ofColor> colors);
+	
     void update();
 	void draw();
 	void destroy();
@@ -21,7 +23,7 @@ public:
 private:
 	
 	vector <string> _imgNames;
-	
+	vector <ofColor> _colors;
 };
 
 

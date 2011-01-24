@@ -23,10 +23,12 @@ public:
 	void destroy();
 	
 	void setStartNum(int num);
+	void setColor(ofColor color);
 	
 private:
 	
 	ofImage _img;
+	ofColor _color;
 	
 	PTimer timer;
 };

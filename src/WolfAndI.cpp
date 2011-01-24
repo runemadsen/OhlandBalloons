@@ -27,18 +27,18 @@ void WolfAndI::createAnimations()
 	vector <string> imgNames;
 	imgNames.push_back("wolf.png");
 	
-	AnimationImages * animation1 = new AnimationImages(imgNames);
-	_animations.push_back(animation1);
+	AnimationImages * animation2 = new AnimationImages(imgNames);
+	_animations.push_back(animation2);
 	
 	/*-------------------------------------------------------------
 		Video of landscapes
-	 --------------------------------------------------------------*/
+	 --------------------------------------------------------------
 	
 	_animations.push_back(new AnimationFullVideo("landscape.mov")); 
 	
 	/*-------------------------------------------------------------
 		Image of moon (triggered by kick drum) ac
-	 --------------------------------------------------------------*/
+	 --------------------------------------------------------------
 	
 	/*AnimationFullImage * animation3 = new AnimationFullImage("moon.png");
 	animation3->setMidiNote(61);
@@ -48,9 +48,24 @@ void WolfAndI::createAnimations()
 	
 	/*-------------------------------------------------------------
 		Video of moon
-	 --------------------------------------------------------------*/
+	 --------------------------------------------------------------
 	
 	_animations.push_back(new AnimationFullVideo("OH_moon.mov")); 
 	
 	_loaded = true;
+	 */
+	
+	/*-------------------------------------------------------------
+	 Sweeping lights on all balloons
+	 --------------------------------------------------------------*/
+	
+	vector <string> imgNames2;
+	imgNames2.push_back("balloon3.png");
+	
+	AnimationSweep * animation1 = new AnimationSweep(imgNames2);
+	animation1->setMidiNotes(midiNotes);
+	_animations.push_back(animation1);
+	
+	_loaded = true;
+	
 }
